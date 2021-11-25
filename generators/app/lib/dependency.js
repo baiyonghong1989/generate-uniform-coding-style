@@ -8,7 +8,7 @@ const Dependencies = {
   ],
   prettier: ['prettier'],
   eslint: ['eslint-plugin-unused-imports', 'eslint-config-prettier', 'eslint-plugin-prettier'],
-  preCommit: ['lint-staged', 'husky'],
+  preCommit: ['lint-staged', 'yorkie'],
 };
 module.exports = {
   Dependencies,

@@ -31,16 +31,12 @@ module.exports = class extends Generator {
         prettier: 'prettier -w src/app/**/*',
         stylelint: 'stylelint src/app/**/*.css',
       },
-      husky: {
-        hooks: {
-          'pre-commit': 'lint-staged',
-        },
+      gitHooks: {
+        'pre-commit': 'lint-staged',
       },
       'lint-staged': {
-        linters: {
-          'src/app/**/*.less': ['stylelint --syntax less --fix', 'git add'],
-          'src/app/**/*.{html,ts,less,js}': ['prettier --write', 'git add'],
-        },
+        'src/app/**/*.css': ['stylelint --syntax --fix'],
+        'src/app/**/*.{html,ts,less,js}': ['prettier --write'],
       },
     };
 

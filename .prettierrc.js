@@ -3,7 +3,7 @@ module.exports = {
   printWidth: 120,
   // 使用tab键缩减的空格数，参考规范3.2规则15使用2个空格
   tabWidth: 2,
-  // 不使用tab使用空格缩进，不允许插入制表符
+  // 不使用tab使用空格缩进，参考规范3.2规则15不允许插入制表符
   useTabs: false,
   // 句尾添加分号，参考规范3.7建议16
   semi: true,
@@ -15,7 +15,7 @@ module.exports = {
   jsxSingleQuote: false,
   // 对象或者数组最后一个元素加逗号.[1,2,3,],参考规范3.7建议15
   trailingComma: 'all',
-  // 在对象字面量声明所使用的的花括号后（{）和前（}）输出空格,参考规范3.6建议13
+  // 在对象字面量声明所使用的的花括号后（{）和前（}）输出空格,参考规范3.5建议13
   bracketSpacing: true,
   // jsx 标签的反尖括号需要换行
   jsxBracketSameLine: false,
@@ -36,6 +36,6 @@ module.exports = {
   vueIndentScriptAndStyle: true,
   // 换行符使用 auto
   endOfLine: 'auto',
-  // 格式化嵌入内容
+  // 格式化嵌入的内容
   embeddedLanguageFormatting: 'auto',
 };
