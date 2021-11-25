@@ -30,9 +30,7 @@
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
     "linters": {
