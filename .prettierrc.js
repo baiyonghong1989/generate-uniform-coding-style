@@ -15,7 +15,7 @@ module.exports = {
   jsxSingleQuote: false,
   // 对象或者数组最后一个元素加逗号.[1,2,3,],参考规范3.7建议15
   trailingComma: 'all',
-  // 在对象字面量声明所使用的的花括号后（{）和前（}）输出空格,参考规范3.5建议13
+  // 在对象字面量声明所使用的的花括号后（{）和前（}）输出空格,参考规范3.6建议13
   bracketSpacing: true,
   // jsx 标签的反尖括号需要换行
   jsxBracketSameLine: false,
