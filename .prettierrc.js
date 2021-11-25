@@ -7,7 +7,7 @@ module.exports = {
   useTabs: false,
   // 句尾添加分号，参考规范3.7建议16
   semi: true,
-  // 使用单引号，参考规范7.2建议36
+  // 使用单引号，参考规范7.2建议36  fawef
   singleQuote: true,
   // 对象属性的引号使用，consistent为有一个属性需要引号就都需要引号。as-needed仅在需要的时候使用.参考规范7.4建议40
   quoteProps: 'as-needed',
