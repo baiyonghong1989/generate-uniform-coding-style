@@ -36,6 +36,6 @@ module.exports = {
   vueIndentScriptAndStyle: true,
   // 换行符使用 auto
   endOfLine: 'auto',
-  // 格式化嵌入的内容
+  // 格式化嵌入内容
   embeddedLanguageFormatting: 'auto',
 };

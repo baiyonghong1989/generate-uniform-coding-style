@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettierV": "prettier -w generators/**/*",
+    "prettier": "prettier -w generators/**/*",
     "stylelint": "stylelint src/app/**/*.css"
   },
   "keywords": [
@@ -33,12 +33,11 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --write"
+    "src/app/**/*.css": [
+      "stylelint --syntax --fix"
     ],
-    "*.ts?(x)": [
-      "eslint",
-      "prettier --parser=typescript --write"
+    "src/app/**/*.{html,ts,less,js}": [
+      "prettier --write"
     ]
   }
 }
