@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier -w generators/**/*",
-    "stylelint": "stylelint src/app/**/*.css",
-    "prepare": "husky install"
+    "stylelint": "stylelint src/app/**/*.css"
   },
   "keywords": [
     "prettier",
@@ -20,7 +19,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "lint-staged": "^12.1.2",
+    "lint-staged": "^10.2.10",
     "prettier": "^2.4.1",
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
@@ -41,5 +40,5 @@
       "eslint",
       "prettier --parser=typescript --write"
     ]
-  },
+  }
 }

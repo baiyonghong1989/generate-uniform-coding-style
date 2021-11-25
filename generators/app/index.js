@@ -55,7 +55,7 @@ module.exports = class extends Generator {
       'save-dev': true,
     });
   }
-  // copy eslint/prettier/stylelint/vscode setting
+  // copy eslint/prettier/stylelint/vscode setting  awefw
   async copyTemplate() {
     copyConfig(this.answer.frameWork, this);
     const answers = await this.prompt([
