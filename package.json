@@ -33,16 +33,14 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "linters": {
-      "src/app/**/*.less": [
-        "stylelint --syntax less --fix",
-        "git add"
-      ],
-      "src/app/**/*.{html,ts,less,js}": [
-        "prettier --write",
-        "git add"
-      ]
-    }
+    "src/app/**/*.less": [
+      "stylelint --syntax less --fix",
+      "git add"
+    ],
+    "src/app/**/*.{html,ts,less,js}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "dependencies": {
     "husky-init": "^7.0.0"
