@@ -33,13 +33,12 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "src/app/**/*.less": [
-      "stylelint --syntax less --fix",
-      "git add"
+    "*.js": [
+      "prettier --write"
     ],
-    "src/app/**/*.{html,ts,less,js}": [
-      "prettier --write",
-      "git add"
+    "*.ts?(x)": [
+      "eslint",
+      "prettier --parser=typescript --write"
     ]
   },
   "dependencies": {}
