@@ -1,6 +1,6 @@
 {
   "name": "generator-uniform-coding-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "uniform style set for coding,include eslint ,stylelint,prettier,editor config",
   "main": "./generators/app/index.js",
   "scripts": {
