@@ -3,7 +3,7 @@
 ## Quickstart
 ```bash
     ### change directory into your project root path
-    npm install -g yeoman
+    npm install -g yo
     npm install -g generator-uniform-coding-style
     yo uniform-coding-style
 ```
